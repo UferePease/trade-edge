@@ -1,5 +1,38 @@
+# Built application files
+*.apk
+*.ap_
+
+# Files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# Ignore gradle files
+.gradle/
+
+# Generated files
+gen/
+build/
+/build
+
+# Intellij IDEA (see https://intellij-support.jetbrains.com/entries/23393067)
+.idea/
 *.iml
 .gradle
+
+.DS_Store
+/captures
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Windows thumbnail db
+Thumbs.db
+
+mcl
+
+
 /local.properties
 /.idea/caches
 /.idea/libraries
@@ -7,9 +40,5 @@
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
 .externalNativeBuild
 .cxx
-local.properties
